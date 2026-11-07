@@ -1,0 +1,36 @@
+:root{--uhel:#24201b;--papir:#fbfaf7;--inkoust:#2a2622;--jantar:#c8851a;--jantar-tm:#9a6510;--kour:#6e665d;--linka:#e4ded4}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--papir);color:var(--inkoust);font:17px/1.6 "Source Sans 3",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:var(--jantar-tm)}
+a:focus-visible{outline:3px solid var(--jantar);outline-offset:3px}
+.pas{background:var(--uhel);color:#f3eee6}
+.pas .vnitr{max-width:960px;margin:0 auto;padding:56px 24px 48px}
+.znak{font-family:"Zilla Slab",Georgia,serif;font-weight:700;font-size:clamp(48px,11vw,104px);line-height:.92;letter-spacing:-.01em;margin:0}
+.znak small{display:block;font-weight:400;font-size:.36em;letter-spacing:.02em;color:var(--jantar);margin-top:.35em}
+.adresa{margin:28px 0 0;color:#cfc7bb;font-size:18px}
+.adresa a{color:#f3eee6}
+.akce{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.tl{display:inline-block;padding:14px 26px;border-radius:4px;font-weight:600;text-decoration:none;font-size:17px}
+.tl-hl{background:var(--jantar);color:var(--uhel)}
+.tl-hl:hover{background:#dc9a2c}
+.tl-vedl{border:2px solid #5a5148;color:#f3eee6}
+.tl-vedl:hover{border-color:var(--jantar)}
+main{max-width:960px;margin:0 auto;padding:48px 24px}
+.sloupce{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px}
+.sloupce h2{font-family:"Zilla Slab",Georgia,serif;font-size:24px;margin:0 0 8px}
+.sloupce p{margin:0 0 6px}
+footer{border-top:1px solid var(--linka);color:var(--kour);font-size:14px}
+footer .vnitr{max-width:960px;margin:0 auto;padding:24px}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 20px;margin-bottom:10px}
+/* dokumenty */
+.pas.maly .vnitr{padding:22px 24px}
+.pas.maly a{color:#f3eee6;text-decoration:none;font-family:"Zilla Slab",Georgia,serif;font-weight:700;font-size:26px}
+.dok{max-width:720px}
+.dok h1{font-family:"Zilla Slab",Georgia,serif;font-size:clamp(30px,5vw,40px);line-height:1.15;margin:0 0 6px}
+.dok .podtitul{color:var(--kour);margin:0 0 32px}
+.dok h2{font-family:"Zilla Slab",Georgia,serif;font-size:21px;margin:36px 0 10px}
+.dok ol{padding-left:1.4em}
+.dok li{margin-bottom:8px}
+.dok ul{list-style:"– ";padding-left:1.2em}
+.zpet{display:inline-block;margin-top:40px}
